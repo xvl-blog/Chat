@@ -1,5 +1,6 @@
-body { background-color: rgb(67, 67, 67); }
+body { background-color: rgb(77, 77, 77); }
 * { color:aliceblue; }
+div { display: block; }
 .box {
     margin: auto;
     top: 0;
@@ -8,30 +9,30 @@ body { background-color: rgb(67, 67, 67); }
     bottom: 0;
     text-align: center;
 }
-.room-head {
-    font-size: 25px;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    background-color: grey;
-    width: 800px;
-    height: 35px;
-    border-radius: 20px 20px 0px 0px;
+.room-view {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    background: grey;
+    border-radius: 10px;
 }
-.room-box {
-    width: 800px;
-    border: 1px solid #CCCCCC;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.room-head {
+    display: block;
+    overflow: hidden;
     text-align: center;
+}
+.fuc-room-box { padding: 0 0 10px; }
+.room-box {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: auto;
+    margin: 0 10px 10px;
+    border-radius: 8px;
+    background-color: grey;
 }
 .room-tail {
+    display: block;
     font-size: 25px;
     margin: auto;
     top: 0;
@@ -43,16 +44,36 @@ body { background-color: rgb(67, 67, 67); }
     height: 35px;
     border-radius: 0px 0px 20px 20px;
 }
-.room {
+.room-1 {
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+.room-2 {
+    margin: 3px 1px 3px 3px;
+    padding: 8px 10px;
     display: inline-block;
-    font-size: large;
-    margin: 10px;
-    width: 180px;
-    height: 70px;
-    background-color: cornflowerblue;
-    border-radius: 20px 20px 20px 20px;
+    width: 169px;
+    height: 60px;
+    transition: background-color .3s ease,box-shadow .3s ease;
+    box-shadow: 0 0 0 2px transparent;
+    background: rgb(77, 77, 77);
+    white-space: nowrap;
+    border-radius: 4px;
+    transition: background-color .3s ease,box-shadow .3s ease;
 }
 .head {
     text-align: right;
     font-size: large;
+}
+.room-list {
+    display: block;
+    overflow: hidden;
+    min-height: 168px;
+    box-sizing: border-box;
+    padding: 3px;
 }
