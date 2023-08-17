@@ -1,8 +1,5 @@
 body { background-color: rgb(67, 67, 67); }
-h1 { color:aliceblue; }
-h2 { color:aliceblue; }
-h3 { color:aliceblue; }
-h4 { color:aliceblue; }
+* { color:aliceblue; }
 .box {
     margin: auto;
     top: 0;
@@ -12,7 +9,7 @@ h4 { color:aliceblue; }
     text-align: center;
 }
 .room-head {
-    font-size: 16px;
+    font-size: 25px;
     margin: auto;
     top: 0;
     left: 0;
@@ -25,7 +22,7 @@ h4 { color:aliceblue; }
     border-radius: 20px 20px 0px 0px;
 }
 .room-box {
-    width: 799px;
+    width: 800px;
     border: 1px solid #CCCCCC;
     margin: auto;
     top: 0;
@@ -35,7 +32,7 @@ h4 { color:aliceblue; }
     text-align: center;
 }
 .room-tail {
-    font-size: 16px;
+    font-size: 25px;
     margin: auto;
     top: 0;
     left: 0;
@@ -45,4 +42,17 @@ h4 { color:aliceblue; }
     width: 800px;
     height: 35px;
     border-radius: 0px 0px 20px 20px;
+}
+.room {
+    display: inline-block;
+    font-size: large;
+    margin: 10px;
+    width: 180px;
+    height: 70px;
+    background-color: cornflowerblue;
+    border-radius: 20px 20px 20px 20px;
+}
+.head {
+    text-align: right;
+    font-size: large;
 }
