@@ -11,7 +11,8 @@ h4 { color:aliceblue; }
     bottom: 0;
     text-align: center;
 }
-.header {
+.room-head {
+    font-size: 16px;
     margin: auto;
     top: 0;
     left: 0;
@@ -20,5 +21,28 @@ h4 { color:aliceblue; }
     text-align: center;
     background-color: grey;
     width: 800px;
+    height: 35px;
     border-radius: 20px 20px 0px 0px;
+}
+.room-box {
+    width: 799px;
+    border: 1px solid #CCCCCC;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.room-tail {
+    font-size: 16px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    width: 800px;
+    height: 35px;
+    border-radius: 0px 0px 20px 20px;
 }
